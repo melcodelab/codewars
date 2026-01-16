@@ -8,6 +8,6 @@ def area_or_perimeter(l: int, w: int) -> int | None:
     
     Returns: 
         l * w (int): If it is a square, return its area. 
-        (2 * l) + (2 * w) (int): If it is a rectangle, return its perimeter.
+        (l + w) * 2 (int): If it is a rectangle, return its perimeter.
     """
     return l * w if l == w else (l + w) * 2
