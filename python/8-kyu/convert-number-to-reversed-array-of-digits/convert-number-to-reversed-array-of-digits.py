@@ -10,5 +10,4 @@ def digitize(n: int) -> list[int]:
         return [0]
     else:
         numbers = str(n)[::-1]
-        list_organize = [ int(number) for number in numbers ]
-        return list_organize
+        return [ int(number) for number in numbers ]
